@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	
+
 	<title>Seimus Pagina</title>
+	<link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
 	<h1>Probando formularios en HTML</h1>
-	<form>
-		<input type="text" required>
-		<input type="password"required>
-		<input type="number">
-		<input type="time">
+	<form class="form">
+		<label class="form-label">
+			Text
+			<input type="text" required>
+		</label>
+		<label class="form-label">
+			Password
+			<input type="password" required>
+		</label>
+		<label class="form-label">
+			Number
+			<input type="number">
+		</label>
+		<label class="form-label">
+			Time
+			<input type="time">
+		</label>
 		<input type="button" value="Boton">
-		<input type="submit">
+		<input type="submit" class="form-submit">
 
 	</form>
 
-	
+
 </body>
-</html> 
+
+</html>

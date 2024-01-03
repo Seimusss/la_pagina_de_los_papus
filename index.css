@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  gap: 10px;
+}
+
+.form-label{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 1.3em;
+  gap: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#1B4242;
+}
+
+.form-label > input{
+  padding: 10px 10px;
+  border-radius: 13px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.form-submit{
+  padding: 15px 10px;
+  border-radius: 13px;
+  outline: none;
+  border: none;
+  background: #1B4242;
+  color: #EEEEEE;
+  cursor: pointer;
+}
+
+.form-submit:hover{
+  background: #092635;
+}
