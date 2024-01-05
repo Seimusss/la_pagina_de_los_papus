@@ -9,29 +9,44 @@
 
 <body>
 	<h1>Probando formularios en HTML</h1>
-	<form class="form">
-		<label class="form-label">
-			Text
-			<input type="text" required>
-		</label>
-		<label class="form-label">
-			Password
-			<input type="password" required>
-		</label>
-		<label class="form-label">
-			Number
-			<input type="number">
-		</label>
-		<label class="form-label">
-			Time
-			<input type="time">
-		</label>
-		<input type="button" value="Boton">
-		<input type="submit" class="form-submit">
+	<section class="main">
 
-	</form>
+		<form class="form">
+			<label class="form-label">
+				Text
+				<input type="text" required>
+			</label>
+			<label class="form-label">
+				Password
+				<input type="password" required>
+			</label>
+			<label class="form-label">
+				Number
+				<input type="number">
+			</label>
+			<label class="form-label">
+				Time
+				<input type="time">
+			</label>
+			<input type="button" value="Boton">
+			<input type="submit" class="form-submit">
 
 
+		</form>
+		<form class="form">
+			<label class="form-label">
+				Selecciona el tipo del input
+				<select class="form-select"></select>
+			</label>
+			<label class="form-label">
+				<p>
+					Input perzonalizado <span id="input-type">(Button)</span>
+				</p>
+				<input id="input-perso" type="button" />
+			</label>
+		</form>
+	</section>
+	<script src="index.js" />
 </body>
 
 </html>
